@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    font-family: 'Pacifico', cursive;
+
+}
+p{
+    font-family: 'Carter One', cursive;}
+body{
+    font-size: 62.5%;
+}
+ .home{
+     width: 100%;
+     position: relative;
+     display: inline-block;
+     min-height: 100vh;
+     color: red;
+
+ }
+  .home h1{
+      font-size: 8rem;
+  }
+  .home h2    {
+    font-size: 4rem;
+      color: green;
+  }
+  .img_container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('images/rainbow-effect.gif');
+        background-size: cover;
+        opacity: 0.3;
+    }
+    .image_imad{
+        max-height: 100%;
+    }
+    .intro {
+        font-size: 3rem;
+        color: orange;
+    }
+    .cards{
+        background-color: gold;
+    }
+    .card{
+        height: 80vh;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .card img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .card h2{
+        color: green;
+        background-color: red;
+        width: 100%;
+        text-align: center;
+
+    }
+    .card p{
+        color: blue;
+    }
+    .dinguerie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5rem;
+    }
+    .Lyna{
+        background-color: pink;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9b9b;
+}
+.creative-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 2rem 6rem;
+    font-size: 3rem;
+    border: none;
+    border-radius: 4px;
+    opacity: 0.5;
+}
